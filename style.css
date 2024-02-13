@@ -1,6 +1,43 @@
-#signup{
-    text-decoration: none;
+#signup {
+  text-decoration: none;
 }
-#login{
-    text-decoration: none;
+#login {
+  text-decoration: none;
+}
+#logged {
+  text-decoration: none;
+}
+#home {
+  text-decoration: none;
+}
+#home-button {
+  text-align: right;
+}
+
+#front-heading {
+  text-align: center;
+}
+#display-box {
+  height: 4rem;
+  width: 16rem;
+  border: solid 0.1rem;
+  margin: auto;
+}
+.front1 {
+  text-align: center;
+}
+#front-button {
+  text-decoration: none;
+}
+
+#front-button-container {
+  display: block;
+  margin: auto;
+}
+
+#index-image {
+  background-image: url("bagimg.jpg");
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  /* background-position: center; */
 }
