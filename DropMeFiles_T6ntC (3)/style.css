@@ -34,6 +34,8 @@ body {
   color: white;
   font-weight: bold;
   outline: none; /* removed vertical lines beside image  */
+
+  text-decoration: none;
 }
 #indexbtnpos div button {
   background-color: black;
@@ -80,6 +82,7 @@ body {
 #loginbtn button a {
   color: white;
   font-weight: bold;
+  text-decoration: none;
 }
 
 /* ------------------------ */
@@ -107,6 +110,8 @@ body {
 #signupinput button a {
   color: white;
   font-weight: bold;
+
+  text-decoration: none;
 }
 
 #signupContainer {
@@ -120,21 +125,49 @@ body {
 /* ------------------------ */
 
 /* front.html */
+#frontContainer {
+  width: 20rem;
+  border: solid black 2px;
+  padding: 1rem;
+  margin: auto;
+  margin-top: 3rem;
+}
+#display-box {
+  width: 15rem;
+  border: solid black 1px;
+  padding: 1rem;
+  margin: auto;
+  height: 2rem;
+  margin-bottom: 2rem;
+}
+#frontheading {
+  text-align: center;
+}
+
+#frontinput div input {
+  margin-bottom: 1rem;
+  border: solid 1px;
+  width: 13.5;
+}
+
+#frontinput button {
+  background-color: red;
+  border: solid black 2px;
+  border-radius: 4px;
+  margin: 2px;
+}
+
+#frontinput button a {
+  color: white;
+  font-weight: bold;
+
+  text-decoration: none;
+}
 
 /* -------------------------- */
-#signup {
-  text-decoration: none;
-}
-#login {
-  text-decoration: none;
-}
 
-#home {
-  text-decoration: none;
-}
-#home-button {
-  text-align: right;
-}
+/* Home button */
+
 #home-button button {
   background-color: black;
   border: solid white 2px;
@@ -146,25 +179,11 @@ body {
 #home-button button a {
   color: white;
   font-weight: bold;
-}
-
-#front-heading {
-  text-align: center;
-}
-#display-box {
-  height: 4rem;
-  width: 16rem;
-  border: solid 0.1rem;
-  margin: auto;
-}
-.front1 {
-  text-align: center;
-}
-#front-button {
   text-decoration: none;
 }
 
-#front-button-container {
-  display: block;
-  margin: auto;
+#home-button {
+  text-align: right;
 }
+
+/* --------------------- */

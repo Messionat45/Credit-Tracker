@@ -1,26 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="home-button">
+      <button><a id="home" href="index.html">Home</a></button>
+    </div>
+    <div id="frontheading"><h1>Capital Record</h1></div>
 
-    <div id="home-button"><button ><a id="home" href="index.html">Home</a></button></div>
-    <div id="front-heading"><h3>Total Capital</h3></div>
+    <div id="frontContainer">
+      <div id="frontheading"><h3>Total Capital</h3></div>
 
-    <div id="display-box"></div>
+      <div id="display-box"></div>
 
-    <form  action="">
-        <div class="front1" ><label  for="">Debit</label>
-        <input type="text"></div>
+      <form action="">
+        <div id="frontinput">
+          <div>
+            <label for="">Debit: </label>
+          </div>
+          <div>
+            <input type="text" />
+          </div>
 
-        <div  class="front1"><label for="">Credit</label>
-            <input type="text"></div>
-            <div ><button id="front-button-container"><a id="front-button" href="">Enter</a></button></div>
-    </form>
+          <div>
+            <label for="">Credit: </label>
+          </div>
+          <div>
+            <input type="text" />
+          </div>
 
-</body>
+          <div>
+            <button>
+              <a href="">Submit</a>
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>
