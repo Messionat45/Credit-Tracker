@@ -48,7 +48,6 @@ body {
 /* login.html */
 
 #loginContainer {
-  height: 20rem;
   width: 14rem;
   border: solid black 2px;
   padding: 2rem;
@@ -85,6 +84,44 @@ body {
 
 /* ------------------------ */
 
+/* signup.html */
+#signupheader {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#signupinput div input {
+  margin-bottom: 1rem;
+  width: 13.5rem;
+  border: solid 1px;
+}
+
+#signupinput button {
+  background-color: black;
+  border: solid white 2px;
+  border-radius: 4px;
+  margin: 2px;
+  padding: 5px;
+}
+
+#signupinput button a {
+  color: white;
+  font-weight: bold;
+}
+
+#signupContainer {
+  width: 14rem;
+  border: solid black 2px;
+  padding: 2rem;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+/* ------------------------ */
+
+/* front.html */
+
+/* -------------------------- */
 #signup {
   text-decoration: none;
 }
