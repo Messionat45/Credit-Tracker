@@ -1,0 +1,133 @@
+/* index.html */
+body {
+  background-color: rgb(156 163 175);
+
+  font-family: "Baloo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+}
+
+#indexheader {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+#indeximage img {
+  max-width: 100%; /* Ensure image doesn't exceed container width */
+  max-height: 100%; /* Ensure image doesn't exceed container height */
+}
+
+#indeximage {
+  display: flex;
+  justify-content: center; /* Align horizontally center */
+  align-items: center; /* Align vertically center */
+  height: 500px; /* Adjust height as needed */
+}
+
+#indexbtnpos {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+#indexbtnpos div button a {
+  color: white;
+  font-weight: bold;
+  outline: none; /* removed vertical lines beside image  */
+}
+#indexbtnpos div button {
+  background-color: black;
+  border: solid white 2px;
+  border-radius: 4px;
+  margin: 2px;
+  padding: 5px;
+}
+
+/* ----------------------- */
+
+/* login.html */
+
+#loginContainer {
+  height: 20rem;
+  width: 14rem;
+  border: solid black 2px;
+  padding: 2rem;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+#loginheader {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.loginform {
+  margin-bottom: 1rem;
+}
+
+.logininput {
+  width: 13.5rem;
+  border: solid 1px;
+}
+
+#loginbtn button {
+  background-color: black;
+  border: solid white 2px;
+  border-radius: 4px;
+  margin: 2px;
+  padding: 5px;
+}
+
+#loginbtn button a {
+  color: white;
+  font-weight: bold;
+}
+
+/* ------------------------ */
+
+#signup {
+  text-decoration: none;
+}
+#login {
+  text-decoration: none;
+}
+
+#home {
+  text-decoration: none;
+}
+#home-button {
+  text-align: right;
+}
+#home-button button {
+  background-color: black;
+  border: solid white 2px;
+  border-radius: 4px;
+  margin: 2px;
+  padding: 5px;
+}
+
+#home-button button a {
+  color: white;
+  font-weight: bold;
+}
+
+#front-heading {
+  text-align: center;
+}
+#display-box {
+  height: 4rem;
+  width: 16rem;
+  border: solid 0.1rem;
+  margin: auto;
+}
+.front1 {
+  text-align: center;
+}
+#front-button {
+  text-decoration: none;
+}
+
+#front-button-container {
+  display: block;
+  margin: auto;
+}
