@@ -124,6 +124,28 @@ body {
 
 /* ------------------------ */
 
+/* Home button */
+
+#home-button button {
+  background-color: black;
+  border: solid white 2px;
+  border-radius: 4px;
+  margin: 2px;
+  padding: 5px;
+}
+
+#home-button button a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#home-button {
+  text-align: right;
+}
+
+/* --------------------- */
+
 /* front.html */
 #frontContainer {
   width: 20rem;
@@ -165,25 +187,3 @@ body {
 }
 
 /* -------------------------- */
-
-/* Home button */
-
-#home-button button {
-  background-color: black;
-  border: solid white 2px;
-  border-radius: 4px;
-  margin: 2px;
-  padding: 5px;
-}
-
-#home-button button a {
-  color: white;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-#home-button {
-  text-align: right;
-}
-
-/* --------------------- */
