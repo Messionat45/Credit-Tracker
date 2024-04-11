@@ -19,7 +19,7 @@
 
       <form action="">
         <div id="frontinput">
-          <div>
+          <div id="sources">
             <select name="" id="selectOption" onchange="getSecondSelect()">
               <option value="income">Income</option>
               <option value="expense">Expense</option>
@@ -31,13 +31,17 @@
             <label for="">Amount: </label>
           </div>
           <div>
-            <input type="text" />
+            <input type="number" />
           </div>
 
           <div>
             <button>
-              <a href="">Submit</a>
+              <a href="">CREATE</a>
             </button>
+          </div>
+
+          <div id="display-record">
+            <div id="record"></div>
           </div>
         </div>
       </form>
