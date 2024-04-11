@@ -20,15 +20,12 @@
       <form action="">
         <div id="frontinput">
           <div>
-            <select name="" id="optionSelect">
+            <select name="" id="selectOption" onchange="getSecondSelect()">
               <option value="income">Income</option>
               <option value="expense">Expense</option>
             </select>
 
-            <select name="" id="">
-              <option value=""></option>
-              <option value=""></option>
-            </select>
+            <select name="" id="secondSelect"></select>
           </div>
           <div>
             <label for="">Amount: </label>
@@ -45,5 +42,7 @@
         </div>
       </form>
     </div>
+
+    <script src="index.js"></script>
   </body>
 </html>

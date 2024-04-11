@@ -1,0 +1,26 @@
+{
+  "income": [
+    "Salary",
+    "Business",
+    "Investments",
+    "Extra Income",
+    "Deposits",
+    "Lottery",
+    "Gifts",
+    "Savings",
+    "Rental Income"
+  ],
+  "expense": [
+    "Bills",
+    "Car",
+    "Clothes",
+    "Travel",
+    "Food",
+    "Shopping",
+    "House",
+    "Entertainment",
+    "Phone",
+    "Pets",
+    "Other"
+  ]
+}
