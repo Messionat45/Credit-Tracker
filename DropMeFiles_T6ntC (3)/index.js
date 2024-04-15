@@ -30,4 +30,21 @@ async function getSecondSelect() {
   }
 }
 
+var totalAmount = 0;
+function calculate() {
+  var displayBox = document.getElementById("displayBox");
+  var amount = document.getElementById("amount").value;
+
+  var displayBox = document.getElementById("dis");
+
+  totalAmount = totalAmount + amount;
+
+  displayBox.innerHTML = totalAmount.toString();
+
+  displayBox.innerHTML = totalAmount;
+
+  // preventDefault();
+}
+
 getSecondSelect();
+calculate();

@@ -15,7 +15,7 @@
     <div id="frontContainer">
       <div id="frontheading"><h3>Total Capital</h3></div>
 
-      <div id="display-box"></div>
+      <div id="displayBox"></div>
 
       <form action="">
         <div id="frontinput">
@@ -31,13 +31,11 @@
             <label for="">Amount: </label>
           </div>
           <div>
-            <input type="number" />
+            <input id="amount" type="number" />
           </div>
 
           <div>
-            <button>
-              <a href="">CREATE</a>
-            </button>
+            <button id="frontBtn" onclick="calculate()">CREATE</button>
           </div>
 
           <div id="display-record">
@@ -46,6 +44,8 @@
         </div>
       </form>
     </div>
+
+    <textarea name="" id="dis" cols="30" rows="10"></textarea>
 
     <script src="index.js"></script>
   </body>
