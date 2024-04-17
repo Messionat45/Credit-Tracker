@@ -193,15 +193,22 @@ body {
   margin-right: 1rem;
 }
 
-#display-record {
-  border: solid 1px;
-  margin: 1rem;
-  height: fit-content;
-  width: fit-content;
-  padding: 1rem;
+#logo1 {
+  height: 1.5rem;
+  width: 1.5rem;
+  float: left;
+  margin: 0 10px;
+}
+#logo2 {
+  height: 1.5rem;
+  width: 1.5rem;
+  float: right;
+  margin: 0 10px;
 }
 
 #record {
+  display: flex;
+  align-items: center;
 }
 
 /* -------------------------- */

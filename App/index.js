@@ -31,7 +31,8 @@ async function getSecondSelect() {
 }
 
 var totalAmount = 0;
-function calculate() {
+function calculate(event) {
+  event.preventDefault();
   var displayBox = document.getElementById("displayBox");
   var amount = document.getElementById("amount").value;
 
@@ -42,8 +43,6 @@ function calculate() {
   displayBox.innerHTML = totalAmount.toString();
 
   displayBox.innerHTML = totalAmount;
-
-  // preventDefault();
 }
 
 getSecondSelect();
