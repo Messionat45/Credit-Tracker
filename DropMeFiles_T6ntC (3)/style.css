@@ -88,6 +88,7 @@ body {
 /* ------------------------ */
 
 /* signup.html */
+
 #signupheader {
   text-align: center;
   margin-bottom: 2rem;
@@ -105,13 +106,8 @@ body {
   border-radius: 4px;
   margin: 2px;
   padding: 5px;
-}
-
-#signupinput button a {
   color: white;
   font-weight: bold;
-
-  text-decoration: none;
 }
 
 #signupContainer {
@@ -120,8 +116,15 @@ body {
   padding: 2rem;
   margin: auto;
   margin-top: 4rem;
+
+  background-color: grey;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+#feedback {
+  margin-top: 1rem;
+  text-align: center;
+}
 /* ------------------------ */
 
 /* Home button */
