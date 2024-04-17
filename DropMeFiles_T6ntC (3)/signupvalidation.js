@@ -41,8 +41,15 @@ function signupValidate(event) {
     validatePassword();
 
     feedback.innerHTML = `<span style="color: green;">Registration Successful!</span>`;
+    setTimeout(function () {
+      window.location.href = "login.html";
+    }, 2000);
   } catch (error) {
     feedback.innerHTML = `<span style="color: red;">${error}</span>`;
+
+    setTimeout(function () {
+      feedback.innerHTML = "";
+    }, 2000);
   }
 }
 

@@ -117,8 +117,7 @@ body {
   margin: auto;
   margin-top: 4rem;
 
-  background-color: grey;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: azure;
 }
 
 #feedback {
