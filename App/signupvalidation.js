@@ -13,7 +13,7 @@ function validatePhone() {
 }
 function validateEmail() {
   var email = document.getElementById("email").value;
-  const emailRegex = /^[a-zA-Z0-9]+@[a-zA-Z]+\.[A-Za-z]{3}$/;
+  const emailRegex = /^[a-zA-Z0-9.]+@[a-zA-Z]+\.[A-Za-z]{3}$/;
   if (!emailRegex.test(email)) throw "Error: Invalid Email Address";
 }
 
@@ -23,7 +23,7 @@ function validatePassword() {
 }
 
 function signupValidate(event) {
-  event.preventDefault();
+  // event.preventDefault();
   var userName = document.getElementById("userName").value;
   var phone = document.getElementById("phone").value;
   var email = document.getElementById("email").value;
@@ -42,7 +42,8 @@ function signupValidate(event) {
 
     feedback.innerHTML = `<span style="color: green;">Registration Successful!</span>`;
     setTimeout(function () {
-      window.location.href = "login.html";
+      feedback.innerHTML = "";
+      window.location.href = "login.php";
     }, 2000);
   } catch (error) {
     feedback.innerHTML = `<span style="color: red;">${error}</span>`;

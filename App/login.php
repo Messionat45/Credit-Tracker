@@ -14,7 +14,7 @@
     <div id="loginContainer">
       <div id="loginheader"><h1>LOG IN</h1></div>
 
-      <form action="" method="post">
+      <form action="loginvalidate.php" method="post">
         <div class="loginform">
           <div>
             <label for="">Email:</label>
@@ -34,9 +34,15 @@
         </div>
 
         <div id="loginbtn">
-          <button><a id="login" href="front.html">Log In</a></button>
+          <button><a id="login">Log In</a></button>
         </div>
       </form>
+
+      <?php
+      if(isset($error)) {
+          echo "<div  class='error'>$error</div>";
+      }
+      ?>
     </div>
   </body>
 </html>

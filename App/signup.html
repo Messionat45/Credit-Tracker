@@ -14,28 +14,27 @@
 
     <div id="signupContainer">
       <div id="signupheader"><h1>SIGN UP</h1></div>
-      <form action="C:\xampp\htdocs\wt" method="post">
+
+      <form action="signup.php" method="post" id="signupForm">
         <div id="signupinput">
           <div>
             <label for=""> User Name: </label
-            ><input type="text" name="name" id="userName" />
+            ><input type="text" name="name" id="userName" required />
           </div>
           <div>
             <label for="">Phone:</label>
-            <input type="number" name="phone" id="phone" />
+            <input type="number" name="phone" id="phone" required />
           </div>
           <div>
             <label for="">Email:</label>
-            <input type="email" name="email" id="email" />
+            <input type="email" name="email" id="email" required />
           </div>
           <div>
             <label for="">Password:</label>
-            <input type="password" name="password" id="password" />
+            <input type="password" name="password" id="password" required />
           </div>
           <div>
-            <button type="submit" name="submit" id="signup" href="login.html">
-              Sign Up
-            </button>
+            <button type="submit" name="submit" id="signup">Sign Up</button>
           </div>
         </div>
       </form>

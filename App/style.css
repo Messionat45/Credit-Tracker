@@ -212,3 +212,15 @@ body {
 }
 
 /* -------------------------- */
+
+/* loginphp red */
+.error {
+  color: red;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+/* front colour */
+.yellow {
+  color: blue !important;
+}
