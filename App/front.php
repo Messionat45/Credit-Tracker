@@ -72,9 +72,6 @@ if (mysqli_num_rows($result) > 0) {
 }
 ?>
     </div>
-
-    <script src="front.js">
-     
-    </script>
+    <script src="front.js"></script>
   </body>
 </html>

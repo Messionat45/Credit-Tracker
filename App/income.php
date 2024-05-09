@@ -18,8 +18,4 @@ $totalExpense = $rowExpense['total_expense'];
 
 // Calculate the total amount
 $totalAmount = $totalIncome - $totalExpense;
-
-
-
-
 ?>
